@@ -12,7 +12,8 @@ Before we get started, let's make sure you have everything you need to write and
 
 ### Prerequisites
 
-- Visual Studio: Download and install Visual Studio, which is a powerful integrated development environment (IDE) for C# development.
+- Visual Studio: Download and install Visual Studio (community edition), which is a powerful integrated development environment (IDE) for C# development.
+  (https://visualstudio.microsoft.com)
 - .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications.
 - Optional: Basic knowledge of any other programming language (even scratch).
 - Optional: Basic knowledge of algorithms.
@@ -94,7 +95,7 @@ var bo = false;
    ```csharp
    int even = 8%2 // output will be 0 so it's even
    int odd = 7%2 // output will be 1 so it's odd
-   ````
+   ```
 
 These are some of the basic operations you'll encounter frequently in C# programming. They're used extensively for calculations, comparisons, and logical evaluations.
 
@@ -340,7 +341,7 @@ while (count < 5)
 
 ### Time for an excercise!
 
-Example
+Example:
 
 ```csharp
 string content = "";
@@ -401,6 +402,7 @@ xoxoxoxoxo
 ```
 
 When you've done this write code with this output:
+
 ```
 XOOOOOOOOO
 XXOOOOOOOO
@@ -415,6 +417,7 @@ XXXXXXXXXX
 ```
 
 Feel free to try out some other patterns. Such as:
+
 ```
 XOOOOOOOOX
 OXOOOOOOXO
@@ -427,6 +430,7 @@ OOXOOOOXOO
 OXOOOOOOXO
 XOOOOOOOOX
 ```
+
 ```
 XXXXXXXXXX
 XOOOOOOOOX
