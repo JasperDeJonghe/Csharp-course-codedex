@@ -16,5 +16,19 @@ What the code needs to contain:
 ```
 Solution:
 ```csharp
+Console.WriteLine("Please enter your age:");
+string? ageInput = Console.ReadLine();
+
+int? age = int.Parse(ageInput);
+Console.WriteLine("Please enter your name:");
+string? name = Console.ReadLine();
+
+if (age < 18) {
+    Console.WriteLine($"Hello {name}, you are underage.");
+} else if (age >= 18 && age <= 65) {
+    Console.WriteLine($"Hello {name}, welcome!");
+} else {
+    Console.WriteLine($"Hello {name}, enjoy your retirement!");
+}
 
 ```
