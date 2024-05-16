@@ -15,6 +15,7 @@ Before we get started, let's make sure you have everything you need to write and
 - Visual Studio: Download and install Visual Studio, which is a powerful integrated development environment (IDE) for C# development.
 - .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications.
 - Optional: Basic knowledge of any other programming language (even scratch).
+- Optional: Basic knowledge of algorithms.
 
 Once you have Visual Studio and the .NET SDK installed, you're ready to start writing C# code!
 
