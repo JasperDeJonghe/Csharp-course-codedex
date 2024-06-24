@@ -91,7 +91,7 @@ In C#, variables are used to store data. Let's declare some variables and explor
 ```csharp
 int intNum = 9;
 long longNum = 9999999;
-float floatNum = 9.99F;
+float floatNum = 9.99F; //'F' is needed so C# knows it is a float
 double doubleNum = 99.999;
 char letter = 'D'; //a char only works with single quotes
 bool myBool = true;
@@ -195,6 +195,7 @@ Console.WriteLine($"Hello {name}!");
 ```
 
 Here, name is declared as `string?`, indicating that it can hold either a string value or `null`.
+But this is not really needed, this is just a preference.
 
 ## Control Structures
 
@@ -369,6 +370,15 @@ for (int i = 1; i <= 5; i++)
 }
 ```
 
+output:
+```
+1
+2
+3
+4
+5
+```
+
 ### while Loop
 
 ```csharp
@@ -378,6 +388,15 @@ while (count < 5)
     Console.WriteLine(count);
     count++;
 }
+```
+
+output:
+```
+1
+2
+3
+4
+5
 ```
 
 ### Time for an excercise!
@@ -484,25 +503,6 @@ XOOOOOOOOX
 XOOOOOOOOX
 XXXXXXXXXX
 ```
-
-## Functions
-
-Functions allow you to organize your code into reusable blocks. Let's define a simple function in C#.
-
-```csharp
-int Add(int a, int b)
-{
-    return a + b;
-}
-```
-
-You can call this function like this:
-
-```csharp
-int result = Add(5, 3);
-Console.WriteLine(result); // Output: 8
-```
-
 ## Conclusion
 
 Congratulations! You've now learned the basics of C# programming. You've covered variables, data types, control structures, and functions. With this knowledge, you can start building your own C# applications and exploring more advanced topics in C# development
