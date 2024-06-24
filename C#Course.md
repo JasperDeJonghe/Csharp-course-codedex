@@ -51,7 +51,6 @@ public class Program
 ```
 
 This is the basic ‘hello world’ project, Let's dismantle and explain each line of this C# code:
-Sure! Let's dismantle and explain each line of this C# code:
 
 ```csharp
 using System;
