@@ -11,14 +11,17 @@ In this tutorial, we'll cover the fundamentals of C# programming, including vari
 Before we get started, let's make sure you have everything you need to write and run C# code.
 
 ### Prerequisites
+You can choose if you want to use Visual Studio or Fiddle, Fiddle is an online code editor that can be used for C#.
 
+- https://dotnetfiddle.net
 - Visual Studio: Download and install Visual Studio (community edition), which is a powerful integrated development environment (IDE) for C# development.
   (https://visualstudio.microsoft.com)
 - .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications.
+
 - Optional: Basic knowledge of any other programming language (even scratch).
 - Optional: Basic knowledge of algorithms.
 
-Once you have Visual Studio and the .NET SDK installed, you're ready to start writing C# code!
+Once you have Visual Studio and the .NET SDK installed or you are using Fiddle, you're ready to start writing C# code!
 
 ## Getting Started
 
@@ -36,12 +39,51 @@ Now, you should see a new C# console application project in Visual Studio.
 In the `Program.cs` file, you'll see the following code:
 
 ```csharp
-Console.WriteLine("Hello, World!");
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Hello World");
+	}
+}
 ```
 
-This is the basic ‘hello world’ project.
+This is the basic ‘hello world’ project, Let's dismantle and explain each line of this C# code:
+Sure! Let's dismantle and explain each line of this C# code:
 
-Note: In C# you need to place a `;` after every line
+```csharp
+using System;
+```
+- This line tells the compiler to include the `System` namespace. Namespaces in C# are used to organize classes and other types, and the `System` namespace contains fundamental classes for basic operations such as input/output.
+```csharp
+public class Program
+{
+```
+- This line declares a public class named `Program`. In C#, a class is a blueprint for creating objects. The keyword `public` makes this class accessible from other classes and assemblies.
+```csharp
+    public static void Main()
+    {
+```
+- This line declares a method named `Main` which is the entry point of a C# application. 
+- `public` means this method can be accessed from outside the class.
+- `static` means this method belongs to the class itself rather than an instance of the class.
+- `void` indicates that this method does not return any value.
+- `Main()` is a special method in C# that serves as the entry point of the program. The execution of the program starts from this method.
+```csharp
+        Console.WriteLine("Hello World");
+```
+- This line is a statement that calls the `WriteLine` method of the `Console` class to output the string `"Hello World"` to the console.
+- `Console` is a class in the `System` namespace that represents the standard input, output, and error streams for console applications.
+- `WriteLine` is a method of the `Console` class that writes a line of text to the output stream.
+```csharp
+    }
+}
+```
+- These lines close the `Main` method and the `Program` class definitions, respectively. In C#, curly braces `{}` are used to define the beginning and end of blocks of code.
+
+Note: In C# you need to place a `;` after every line of code.
 
 ## Variables and Data Types
 
