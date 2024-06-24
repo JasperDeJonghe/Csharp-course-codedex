@@ -16,7 +16,7 @@ You can choose if you want to use Visual Studio or Fiddle, Fiddle is an online c
 - https://dotnetfiddle.net
 - Visual Studio: Download and install Visual Studio (community edition), which is a powerful integrated development environment (IDE) for C# development.
   (https://visualstudio.microsoft.com)
-- .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications.
+- .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications. (Only needed if you are using Visual Studio)
 
 - Optional: Basic knowledge of any other programming language (even scratch).
 - Optional: Basic knowledge of algorithms.
