@@ -4,24 +4,23 @@
 
 Are you ready to learn C#? C# is a powerful programming language developed by Microsoft. It's widely used for building applications across various platforms, including desktop, web, mobile, and gaming.
 
-In this tutorial, we'll cover the fundamentals of C# programming, including variables, data types, control structures, and functions. By the end of this tutorial, you'll have a solid understanding of the basics of C# and be ready to start building your own applications!
+This tutorial will cover the fundamentals of C# programming, including variables, data types, control structures, and functions. By the end of this tutorial, you'll have a solid understanding of the basics of C# and be ready to start building your applications!
 
 ## Setting Up Your Environment
 
-Before we get started, let's make sure you have everything you need to write and run C# code.
+Before we start, let's ensure you have everything you need to write and run C# code.
 
 ### Prerequisites
-You can choose if you want to use Visual Studio or Fiddle, Fiddle is an online code editor that can be used for C#.
+You can choose if you want to use Visual Studio or Fiddle, 
 
-- https://dotnetfiddle.net
-- Visual Studio: Download and install Visual Studio (community edition), which is a powerful integrated development environment (IDE) for C# development.
-  (https://visualstudio.microsoft.com)
-- .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications. (Only needed if you are using Visual Studio)
+- Fiddle is an online code editor that can be used for C#. (https://dotnetfiddle.net)
+- Visual Studio: Download and install Visual Studio (community edition), a powerful integrated development environment (IDE) for C# development. (https://visualstudio.microsoft.com)
+- .NET SDK: Install the .NET SDK, which includes everything you need to build and run C# applications. (Only if you are using Visual Studio)
 
 - Optional: Basic knowledge of any other programming language (even scratch).
 - Optional: Basic knowledge of algorithms.
 
-Once you have Visual Studio and the .NET SDK installed or you are using Fiddle, you're ready to start writing C# code!
+Once you have Visual Studio and the .NET SDK installed (or prefer to use Fiddle), you're ready to start writing C# code!
 
 ## Getting Started
 
@@ -132,7 +131,7 @@ var bo = false;
    ```csharp
    int remainder = 10 % 3; // remainder is 1
    ```
-   With this operator you can check if a number is odd or even.
+   With this operator, you can check if a number is odd or even.
    ```csharp
    int even = 8%2 // output will be 0 so it's even
    int odd = 7%2 // output will be 1 so it's odd
@@ -151,7 +150,7 @@ Console.WriteLine("What's your name?");
 
 To read the next line we need to learn some new syntax.
 Here the program is reading the line, when the user presses enter.
-Then the answers gets stored in a variable as a string.
+Then the answers get stored in a variable as a string.
 
 ```csharp
 string name = Console.ReadLine();
@@ -175,13 +174,13 @@ string name = Console.ReadLine();
 Console.WriteLine($"Hello {name}!");
 ```
 
-In the second example you can see a `$`. This is a string interpolation.
+In the second example, you can see a `$`. This is a string interpolation.
 This allows you to embed expressions directly within string literals.
 
 Or in simple words. You can directly use variables in your string when placing them between curly braces `{}`
 
 Now we will get to the green lines under `Console.ReadLine()`.
-This isn't an error but it's an recommendation.
+This isn't an error but it's a recommendation.
 The program is saying that the variable isn't `nullable`.
 
 In our previous example `name` is declared as `string`, which means it can only hold string values.
@@ -195,7 +194,7 @@ Console.WriteLine($"Hello {name}!");
 ```
 
 Here, name is declared as `string?`, indicating that it can hold either a string value or `null`.
-But this is not really needed, this is just a preference.
+But this is not needed, this is just a preference.
 
 ## Control Structures
 
@@ -320,9 +319,9 @@ To parse different data types to other data types in C#, you typically use conve
    string boolString = boolValue.ToString(); // "True"
    ```
 
-Always ensure that the data being parsed or casted is in a format that can be successfully converted to the target type, otherwise, it might throw exceptions or produce unexpected results.
+Always ensure that the data being parsed or cast is in a format that can be successfully converted to the target type, otherwise, it might throw exceptions or produce unexpected results.
 
-### Time for an excercise!
+### Time for an exercise!
 
 Write a C# console application that asks the user for their age and greets them accordingly. Here's what the program should do:
 
@@ -399,7 +398,7 @@ output:
 5
 ```
 
-### Time for an excercise!
+### Time for an exercise!
 
 Example:
 
@@ -440,7 +439,7 @@ After the inner loop finishes, the code appends the characters "\r\n" to `conten
 This process repeats 10 times (from 0 to 9) for both loops, so in total, "x" is added 100 times.
 
 So the `i` for loop is for the rows.
-and the `j` for loop is for the collumns.
+and the `j` for loop is for the columns.
 
 Finally, the `content` string is printed using `Console.WriteLine()`, which displays the content on the console. The result is a 10x10 grid of "x" characters.
 
@@ -505,5 +504,5 @@ XXXXXXXXXX
 ```
 ## Conclusion
 
-Congratulations! You've now learned the basics of C# programming. You've covered variables, data types, control structures, and functions. With this knowledge, you can start building your own C# applications and exploring more advanced topics in C# development
+Congratulations! You've now learned the basics of C# programming. You've covered variables, data types, control structures, and functions. With this knowledge, you can start building your C# applications and exploring more advanced topics in C# development
 (If you liked this small tutorial, I can make more in the future).
